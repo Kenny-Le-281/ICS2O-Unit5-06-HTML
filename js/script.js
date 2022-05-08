@@ -1,18 +1,18 @@
 // Created by: Kenny Le
-// Created on: Apr 2022
+// Created on: May 2022
 // This file contains the JS functions for index.html
 
 /**
  * Check service worker.
  */
-if (navigator.serviceWorker) {
+ if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit5-06-HTML/sw.js", {
     scope: "/ICS2O-Unit5-06-HTML/",
   })
 }
 
 /**
- * This function displays an alert.
+ * This function performs a loop.
  */
 
 function calculate() {
