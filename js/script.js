@@ -14,7 +14,6 @@
 /**
  * This function performs a loop.
  */
-
 function calculate() {
   // input
   var firstInteger = document.getElementById("first-integer").value
