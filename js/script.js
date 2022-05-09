@@ -22,7 +22,6 @@ function calculate() {
   // process
   let counter = 0
   var answer = 0
-  const negativeOne = -1
   var firstIntegerAsInt = parseInt(firstInteger)
   var secondIntegerAsInt = parseInt(secondInteger)
 
@@ -30,7 +29,7 @@ function calculate() {
     temp = firstIntegerAsInt
     firstIntegerAsInt = secondIntegerAsInt
     secondIntegerAsInt = temp
-  } 
+  }
   while (counter < secondIntegerAsInt) {
     console.log("Once through loop:" + counter)
     answer += firstIntegerAsInt
