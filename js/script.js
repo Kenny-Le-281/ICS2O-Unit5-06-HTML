@@ -22,12 +22,17 @@ function calculate() {
   // process
   let counter = 0
   var answer = 0
+  const negativeOne = -1
   var firstIntegerAsInt = parseInt(firstInteger)
 
   while (counter < secondInteger) {
     console.log("Once through loop:" + counter)
     answer += firstIntegerAsInt
     counter++
+  }
+
+  if (secondInteger < 0) {
+    answer = (firstInteger * negativeOne) * (secondInteger * negativeOne)
   }
 
   // output
